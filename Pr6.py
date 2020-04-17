@@ -6,12 +6,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from var5 import gen_data
 
-
-def build_model():
-
-    return model
-
-
 size = 3000
 test_count = size // 5
 data, labels = gen_data(size)
